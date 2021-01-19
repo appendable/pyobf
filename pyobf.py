@@ -39,6 +39,7 @@ def obf():
         fo.write('None | Something went wrong.')
     else:
         fo.write(f'{random2}={str(random_)};import base64;{random3}={str(postlines)};exec(compile(base64.b64decode({random3}), base64.b64decode(\'{string.decode()}\').decode(), base64.b64decode(\'{exc.decode()}\').decode())){random4}={random_}')
+        print('Successful Obfuscation')
     
 if args.__dict__['filed']:
     obf()
