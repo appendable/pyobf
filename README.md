@@ -1,2 +1,5 @@
 # pyobf
-weak but working python obfuscation with base64
+Weak Python obfuscation using the built in base64 library
+
+# Usage
+`python pyobf.py -obfuscate [file.py | path/to/file.py]`
